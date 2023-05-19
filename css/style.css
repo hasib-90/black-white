@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* custom fonts start */
+@font-face{
+    src: url(../fonts/century-gothic.ttf);
+    font-family: century-gothic;
+}
+@font-face{
+    src: url(../fonts/trebuchet-ms-italic.ttf);
+    font-family: trebuchetms;
+}
+/* custom fonts end */
+
+body{
+    background: #000000;
+    font: normal 0.8em 'trebuchet ms', arial, sans-serif;
+}
+
+/* header part css start */
+header{
+    width: 100%;
+    height: 282px;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+.top-header{
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    background-color: #000000;
+}
+.top-header h1 {
+    font-family: century-gothic, arial, sans-serif;
+    padding: 60px 0px 10px 0px;
+    display: inline-block;
+    color: #fff;
+}
+.top-header h1 a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.top-header h3{
+    font-family: trebuc, arial, sans-serif;
+    font-weight: normal;
+    color: #999;
+    font-size: 18px;
+}
+nav{
+    width: 70%;
+    height: 80px;
+    margin: auto;
+    box-sizing: border-box;
+}
+nav hr{
+    width: 100%;
+    border: 2px solid white;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 15px 0px 10px;
+}
+.selected{
+    background-color: #808080;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    background-color: #666666;
+}
+/* header part css end */
+
+/* main part css start */
+main{
+    width: 70%;
+    height: 800px;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: auto;
+}
+.cxample-page{
+    height: 2380px;
+}
+article{
+    width: 70%;
+    height: 100%;
+    float: left;
+    clear: right;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+}
+article h1, h2{
+    margin-bottom: 15px;
+    padding: 15px 0px 5px 0;
+    font: normal 175% century-gothic, arial, sans-serif;
+}
+p{
+    line-height: 1.7em;
+    padding-bottom: 20px;
+    font: normal 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p a{
+    color: #000000;
+    display: inline-block;
+}
+p a:hover{
+    text-decoration: none;
+}
+article ul{
+    margin-bottom: 20px;
+}
+article ul li{
+    list-style-image: url(../img/bullet.png);
+    list-style-position: inside;
+    margin-bottom: 6px;
+    padding: 0px 0px 10px 5px;
+    font: normal 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* aside css */
+aside{
+    width: 30%;
+    height: 100%;
+    float: left;
+    clear: right;
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+}
+aside h3{
+    margin-bottom: 15px;
+    padding: 15px 0px 5px 0px;
+    font: normal 185% century-gothic, arial, sans-serif;
+}
+aside h4{
+    padding: 5px 0px 5px 0px;
+    font: normal 120% arial, sans-serif;
+}
+aside h5{
+    font: italic 95% arial, sans-serif;
+    padding-bottom: 15px;
+}
+aside p{
+    padding-bottom: 35px;
+    line-height: 1.7em;
+}
+aside ul{
+    margin: 0;
+    padding: 0;
+}
+aside ul li{
+    list-style: none;
+    margin: 10px 10px 10px 0px;
+}
+aside ul li a{
+    background: transparent url(../img/link.png) no-repeat left center;
+    margin: 10px 10px 10px 0px;
+    color: #000000;
+    padding-left: 40px ;
+}
+aside ul li a:hover{
+    text-decoration: none;
+}
+.search{
+    padding: 5px;
+    border: 1px solid #BBB;
+    border-radius: 2px;
+    color: #5D5D5D;
+    font: 100% arial, sans-serif;
+    display: inline-block;
+}
+form{
+    box-sizing: border-box;
+}
+form p{
+    display: inline-block;
+    padding: 0;
+}
+form p input{
+    position: relative;
+}
+form p a{
+    position: absolute;
+    height: 28px;
+    width: 33px;
+    margin-left: 10px;
+    background: url(../img/search.png) no-repeat center;
+}
+/* main part css end */
+
+/* example page css start */
+.headding{
+    margin-bottom: 10px;
+    padding: 15px 0px 5px 0;
+    font: normal century-gothic, arial, sans-serif;
+}
+ol{
+    margin-bottom: 20px;
+}
+ol li{
+    list-style-position: inside;
+    margin-bottom: 6px;
+    padding: 0px 0px 10px 5px;
+    font: normal 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left{
+    float: left;
+    clear: right;
+    border: 0;
+    margin-right: 10px;
+}
+.mid{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+.display{
+    display: inline-block;
+    width: 75%;
+    position: relative;
+}
+.right{
+    float: right;
+    clear: left;
+    width: auto;
+    margin-left: 10px;
+    position: absolute;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+    margin: 10px 0px 30px 0px;
+}
+table tr th{
+    text-align: left;
+    background-color: #3B3B3B;
+    color: white;
+    padding: 7px 4px; 
+}
+table tr td{
+    border-top: 2px solid white;
+    padding: 7px 4px;
+    background-color: #F0EFE2;
+}
+.form-setting{
+    margin-top: 20px;
+}
+.form-setting label{
+    text-align: left;
+    float: left;
+    clear: right;
+}
+.form-setting input{
+    margin: 0px 0px 10px 180px;
+    padding: 5px;
+    width: 313px;
+    border-radius: 3;
+}
+.form-setting textarea{
+    margin:0px 0px 10px 190px;
+}
+.checkbox{
+    margin: 0 0 0 184px !important;
+    width: 15px !important;
+}
+.select-lable{
+    margin-top: 15px !important;
+}
+.select{
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 15px 0px 10px 160px;
+    width: 313px;
+}
+.submit{
+    width: 99px !important;
+    margin: 15px 27px 0px 0px !important;
+    float: right;
+    background-color: #000000;
+    color: #fff;
+    font: 100% arial;
+    cursor: pointer;
+}
+/* example page css end */
+
+/* another page css start */
+.anotherpage{
+    height: 1600px !important;
+
+}
+.anotherpage h1{
+    font-weight: bold;
+}
+.anotherpage h2{
+    font-weight: bold;
+}
+.anotherpage p{
+    line-height: 1.7;
+}
+
+/* another page css end */
+
+/* contact us page css start */
+.form-setting-2{
+    margin-bottom: 80px;
+}
+.form-setting-2 label{
+    text-align: left;
+    float: left;
+    clear: right;
+}
+.form-setting-2 input{
+    margin: 0px 0px 4px 128px;
+    width: 300px;
+    height: 27px;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #E5E5DB;
+}
+#textarea{
+    margin: 0px 0px 0px 113px !important;
+    width: 300px;
+    padding: 2px;
+    box-sizing: border-box;
+    border: 1px solid #E5E5DB;
+}
+#submit{
+    margin: 15px 0px 0px 361px;
+    width: 99px;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    font: 100% arial;
+}
+/* contact us page css end */
+
+
+/* footer part css start */
+footer{
+    width: 70%;
+    min-height: 33px;
+    margin: auto;
+    text-align: center;
+    font: normal 100% 'lucida sans unicode', arial, sans-serif;
+    padding: 24px 0 18px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+/* footer part css end */
